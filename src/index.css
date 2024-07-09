@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Dica a baixo pra resolver problema de alguns navegadores que 
+acabam deixando algumas larguras bugadas. */
+* {
+  min-width: 0;
+}
